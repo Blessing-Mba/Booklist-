@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Book</h1>
+        <form  id="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" 
+            </div>
+            <div>
+                <label for="author">Author</label>
+                <input type="text" id="author" >
+            </div>
+            <div>
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn">
+            </div>
+
+            <div>
+                <input type="submit" value="submit">
+            </div>
+        </form>
+    
+        <table class="table-box">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
